@@ -1,6 +1,6 @@
 {
   "name": "@jdesboeufs/mongo-write-stream",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Powerful stream writer for MongoDB collections",
   "main": "index.js",
   "repository": "git@github.com:jdesboeufs/mongo-write-stream.git",
