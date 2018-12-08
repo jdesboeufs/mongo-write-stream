@@ -1,0 +1,33 @@
+{
+  "name": "@jdesboeufs/mongo-write-stream",
+  "version": "0.0.0",
+  "description": "Powerful stream writer for MongoDB collections",
+  "main": "index.js",
+  "repository": "git@github.com:jdesboeufs/mongo-write-stream.git",
+  "author": "Jérôme Desboeufs <jerome.desboeufs@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "dependencies": {
+    "@jdesboeufs/batch-stream": "^1.0.0",
+    "debug": "^4.1.0",
+    "mongodb": "^3.1.10",
+    "pumpify": "^1.5.1",
+    "through2": "^3.0.0"
+  },
+  "devDependencies": {
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}
